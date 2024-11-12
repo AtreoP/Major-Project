@@ -1,0 +1,13 @@
+train: C:\Users\VEDANT\OneDrive\Desktop\finetuneoutdoor.v1i.yolov11\train
+val: C:\Users\VEDANT\OneDrive\Desktop\finetuneoutdoor.v1i.yolov11\valid
+test: C:\Users\VEDANT\OneDrive\Desktop\finetuneoutdoor.v1i.yolov11\test
+
+nc: 15
+names: ['Bicycle', 'Bus', 'car', 'cat', 'children', 'cross_walk', 'dog', 'hump', 'mentinance', 'motorbike', 'person', 'speed_limit', 'stop', 'traffic_light', 'truck']
+
+roboflow:
+  workspace: kuality-ai
+  project: finetuneoutdoor
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kuality-ai/finetuneoutdoor/dataset/1
